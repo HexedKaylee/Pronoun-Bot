@@ -48,14 +48,15 @@ client.on("message", (message) => {
 			if(!perms){
 				message.channel.send(`Contact a moderator to add your pronouns.`);
 			} else{
-			message.guild.createRole({
-				name: pn,
-				permissions: []
-			});
 			if(!pn.includes("/")){
 				message.channel.send('Enter pronouns in subject/2nd form format: they/them, it/its, she/her')
 			}
 			else{
+				
+			message.guild.createRole({
+				name: pn,
+				permissions: []
+			});
 			message.channel.send(`Adding pronouns: ${pn}.`);}}}
 		}
 	}
