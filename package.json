@@ -10,14 +10,9 @@
     "package.json": "^2.0.1",
     "save": "^2.3.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HexedKaylee/Pronoun-Bot.git"
-  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-	"start": "node mybot.js"
   },
   "keywords": [],
   "author": "",
